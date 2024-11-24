@@ -117,6 +117,7 @@ const PinwheelModal = (allProps: PinwheelModalProps) => {
   }, [_srcUrl])
 
   React.useEffect(() => {
+    console.log('investable fork')
     if (!loaded) return
 
     if (open && !showing) {
